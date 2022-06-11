@@ -6,6 +6,6 @@ public class TestaPneu {
 		bomba.setPressaoDesejada(30);
 		bomba.setPressaoLida(18);
 		
-		bomba.obterResultado();
+		System.out.println(bomba.obterResultado());
 	}
 }
