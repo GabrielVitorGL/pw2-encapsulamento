@@ -1,7 +1,6 @@
 
 public class Bomba {
-	private int pressaoLida;
-	private int pressaoDesejada;
+	private int pressaoLida, pressaoDesejada;
 	
 	public int obterResultado() {
 		return pressaoDesejada - pressaoLida;
